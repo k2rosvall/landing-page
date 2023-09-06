@@ -82,6 +82,36 @@ ul {
 
 .middle {
   height: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.squares {
+  display: flex;
+  justify-content: space-between;
+}
+
+.square {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.square p {
+  text-align: center;
+}
+
+.square div {
+  border: 2px solid blue;
+  width: 100px;
+  height: 100px;
 }
 
 .bottom {
